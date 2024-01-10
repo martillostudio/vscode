@@ -1,6 +1,7 @@
-# vscode
+# Visual Studio Code
 
-Custom Visual Studio Code settings
+Custom Visual Studio Code settings.json and extensions
+
 
 ## Extensions
 
