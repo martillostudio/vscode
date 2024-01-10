@@ -26,3 +26,6 @@ Custom Visual Studio Code settings.json and extensions
 * Todo Tree\
 * PHP Inteliphense\
 * Sanity.io
+
+  
+![Captura de pantalla 2024-01-10 a las 12 54 05](https://github.com/martillostudio/vscode/assets/90794863/eec852e7-e1a5-4fff-86c0-86d748e2ce26)
