@@ -28,4 +28,4 @@ Custom Visual Studio Code settings.json and extensions
 * Sanity.io
 
   
-![Captura de pantalla 2024-01-10 a las 12 54 05](https://github.com/martillostudio/vscode/assets/90794863/eec852e7-e1a5-4fff-86c0-86d748e2ce26)
+![Captura de pantalla 2024-01-10 a las 13 03 04](https://github.com/martillostudio/vscode/assets/90794863/dc9dc0aa-06d5-4fd0-9275-394a8307d33e)
