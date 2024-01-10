@@ -12,6 +12,7 @@
   "terminal.integrated.cursorBlinking": true,
 
   // Workbench
+  "workbench.colorTheme": "Cobalt2",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -40,6 +41,7 @@
   "editor.formatOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "window.commandCenter": false,
   "breadcrumbs.enabled": false,
   "prettier.eslintIntegration": true,
@@ -55,14 +57,13 @@
 
   // APC
   "apc.activityBar": {
-    "position": "bottom",
-    "size": 28,
+    "position": "top",
+    "size": 33,
     "hideSettings": false
   },
   "apc.statusBar": {
-    "position": "editor-bottom",
+    "position": "bottom",
     "height": 28,
-    "fontSize": 12,
-  },
-  "workbench.colorTheme": "Cobalt2",
+    "fontSize": 12
+  }
 }
