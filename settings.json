@@ -10,6 +10,8 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.cursorBlinking": true,
+
+  // Workbench
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -45,10 +47,12 @@
   "files.trimTrailingWhitespace": true,
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+
   // Git
   "git.openRepositoryInParentFolders": "always",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
+
   // APC
   "apc.activityBar": {
     "position": "bottom",
