@@ -25,4 +25,4 @@ Subtle Match Brackets\
 Tailwind CSS IntelliSense\
 Todo Tree\
 PHP Inteliphense\
-Sanity.io\
+Sanity.io
