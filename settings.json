@@ -21,6 +21,7 @@
   "editor.fontWeight": "300",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 2,
+  "editor.renderLineHighlight": "none",
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "none",
   "editor.minimap.enabled": false,
@@ -44,12 +45,10 @@
   "files.trimTrailingWhitespace": true,
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
-
   // Git
   "git.openRepositoryInParentFolders": "always",
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-
   // APC
   "apc.activityBar": {
     "position": "bottom",
