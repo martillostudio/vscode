@@ -50,6 +50,10 @@
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
 
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+
   // Git
   "git.openRepositoryInParentFolders": "always",
   "git.enableSmartCommit": true,
