@@ -10,9 +10,6 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.cursorBlinking": true,
-
-  // Workbench
-  "workbench.colorTheme": "Cobalt2",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -54,6 +51,10 @@
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
 
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+
   // Git
   "git.openRepositoryInParentFolders": "always",
   "git.enableSmartCommit": true,
@@ -69,5 +70,6 @@
     "position": "bottom",
     "height": 28,
     "fontSize": 12
-  }
+  },
+  "workbench.colorTheme": "Copilot Theme"
 }
