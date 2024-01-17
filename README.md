@@ -18,6 +18,8 @@ Custom Visual Studio Code settings.json and extensions
 * Headwind
 * Indenticator
 * Javascript (ES6) code snippets
+* Laravel Blade formatter
+* Laravel Blade Snippets
 * Material Icon Theme
 * Open in browser
 * Prettier - Code formatter
