@@ -1,27 +1,34 @@
 {
-  // Terminal
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.env.osx": {},
-  "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.letterSpacing": 0.5,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 2,
-  "terminal.integrated.cursorBlinking": true,
+  // Window
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+
+  // Workbench
+  "workbench.colorTheme": "Cobalt2",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+
+  // Editor
   "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 20,
   "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "400",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 2,
   "editor.renderLineHighlight": "none",
+  "editor.semanticHighlighting.enabled": false,
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "none",
   "editor.minimap.enabled": false,
@@ -39,17 +46,10 @@
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.commandCenter": false,
-  "breadcrumbs.enabled": false,
-  "prettier.eslintIntegration": true,
+
+  // Files
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
-  "indenticator.width": 0.1,
-  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
-
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
 
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
@@ -60,7 +60,8 @@
   },
 
   "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.formatOnSave": true
   },
 
   // Git
@@ -68,16 +69,15 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
 
-  // APC
-  "apc.activityBar": {
-    "position": "top",
-    "size": 33,
-    "hideSettings": false
-  },
-  "apc.statusBar": {
-    "position": "bottom",
-    "height": 28,
-    "fontSize": 12
-  },
-  "workbench.colorTheme": "Cobalt2"
+  // Terminal
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.letterSpacing": 0.5,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": true
 }
