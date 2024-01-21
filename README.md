@@ -5,7 +5,6 @@ Custom Visual Studio Code settings.json and extensions
 
 ## Extensions
 
-* App Customize UI++
 * Astro
 * Auto Close Tag
 * Auto Rename Tag
