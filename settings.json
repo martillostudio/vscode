@@ -4,19 +4,17 @@
   "breadcrumbs.enabled": false,
   "indenticator.width": 0.1,
   "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
-
-  // Workbench
-  "workbench.colorTheme": "Cobalt2",
   "workbench.editor.showTabs": "multiple",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "gruvbox-material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Cobalt2",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.editorActionsLocation": "hidden",
 
   // Explorer
   "explorer.compactFolders": false,
-  "explorer.fileNesting.enabled": true,
+  // "explorer.fileNesting.enabled": true,
 
   // Editor
   "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
@@ -55,6 +53,10 @@
     "editor.defaultFormatter": "jock.svg"
   },
 
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
@@ -79,5 +81,12 @@
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
-  "terminal.integrated.cursorBlinking": true
+  "terminal.integrated.cursorBlinking": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "open"
 }
