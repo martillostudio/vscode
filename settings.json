@@ -1,92 +1,166 @@
 {
-  // Window
-  "window.commandCenter": false,
-  "breadcrumbs.enabled": false,
-  "indenticator.width": 0.1,
-  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.iconTheme": "gruvbox-material-icon-theme",
-  "workbench.startupEditor": "none",
-  "workbench.activityBar.location": "top",
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.layoutControl.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
 
-  // Explorer
-  "explorer.compactFolders": false,
-  // "explorer.fileNesting.enabled": true,
+    // Codesnap
+    "codesnap.backgroundColor": "#FFC540",
+    "codesnap.showLineNumbers": false,
+    "codesnap.roundedCorners": true,
 
-  // Editor
-  "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 20,
-  "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "400",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 2,
-  "editor.renderLineHighlight": "none",
-  "editor.semanticHighlighting.enabled": false,
-  "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "none",
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.guides.indentation": false,
-  "editor.matchBrackets": "never",
-  "editor.glyphMargin": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.tabSize": 2,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // Indenticator
+    "indenticator.width": 0.1,
+    "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
 
-  // Files
-  "files.autoSave": "onFocusChange",
-  "files.trimTrailingWhitespace": true,
+    // Editor
+    "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.renderLineHighlight": "none",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.guides.indentation": false,
+    "editor.matchBrackets": "never",
+    "editor.glyphMargin": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrapColumn": 120,
+    "editor.stickyTabStops": false,
 
-  "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
-  },
+    // Explorer
+    "explorer.compactFolders": false,
 
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
+    // Files
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
 
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
+    // Git
+    "git.openRepositoryInParentFolders": "always",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
 
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
-    "editor.formatOnSave": true
-  },
+    // Github Copilot
+    "github.copilot.editor.enableAutoCompletions": true,
 
-  // Git
-  "git.openRepositoryInParentFolders": "always",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
+    // JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
 
-  // Terminal
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.env.osx": {},
-  "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.letterSpacing": 0.5,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 2,
-  "terminal.integrated.cursorBlinking": true,
-  "liveServer.settings.donotShowInfoMsg": true,
+    // Prettier
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "prettier.tabWidth": 4,
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg",
+        "editor.formatOnSave": true
+    },
+    "[dotenv]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
 
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "github.copilot.editor.enableAutoCompletions": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "security.promptForLocalFileProtocolHandling": false,
-  "security.workspace.trust.untrustedFiles": "open"
+    // Search
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/vendor/{[^l],?[^ai]}*": true,
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+
+    // Security
+    "security.promptForLocalFileProtocolHandling": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // Terminal
+    "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.letterSpacing": 0.5,
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.env.osx": {},
+
+    // Window
+    "window.nativeFullScreen": true, // macOS only
+    "window.commandCenter": false,
+
+    // Workbench
+    "workbench.colorTheme": "React Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": "multiple",
 }
