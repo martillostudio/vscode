@@ -10,6 +10,7 @@
     // Indenticator
     "indenticator.width": 0.1,
     "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+    "indenticator.color.light": "rgba(0, 0, 0, 0.1)",
 
     // Editor
     "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
@@ -23,6 +24,7 @@
     "editor.renderLineHighlight": "none",
     "editor.semanticHighlighting.enabled": false,
     "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.renderWhitespace": "none",
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
@@ -41,6 +43,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrapColumn": 120,
     "editor.stickyTabStops": false,
+    "explorer.decorations.colors": false,
+    "editor.showFoldingControls": "never",
 
     // Explorer
     "explorer.compactFolders": false,
@@ -155,6 +159,7 @@
     "terminal.integrated.env.osx": {},
 
     // Window
+    "window.title": "${rootName}",
     "window.nativeFullScreen": true, // macOS only
     "window.commandCenter": false,
 
@@ -163,4 +168,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
     "workbench.editor.showTabs": "multiple",
+    "workbench.layoutControl.enabled": false,
 }
