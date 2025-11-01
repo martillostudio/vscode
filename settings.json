@@ -1,75 +1,81 @@
 {
-  // Breadcrumbs
-  "breadcrumbs.enabled": false,
-
-  // Editor
+  // ===== EDITOR SETTINGS =====
   "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.4,
+  "editor.lineHeight": 1.6,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
+  "editor.tockenColorCustomizations": {
+    "textMatRules:": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": true,
+  "editor.links": false,
+  "editor.stickyScroll.enabled": false,
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
-  "editor.showFoldingControls": "mouseover",
+  "editor.showFoldingControls": "never",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabSize": 2,
+  "editor.lineNumbers": "on",
   "editor.detectIndentation": false,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": "always",
   "editor.glyphMargin": false,
   "editor.inlineSuggest.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "indenticator.width": 0.1,
-  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+  "editor.minimap.enabled": false,
 
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  },
-
-  "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
-  },
-
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  },
-
-  // Explorer
-  "explorer.compactFolders": false,
-
-  // Extensions
-  "extensions.ignoreRecommendations": false,
-
-  // Files
-  "files.insertFinalNewline": true,
+  // ===== FILES SETTINGS =====
   "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
   "files.autoSave": "afterDelay",
 
-  // GIT
+  // ===== WORKBENCH SETTINGS =====
+  "workbench.colorTheme": "Gatito Theme",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.statusBar.visible": false,
+  "workbench.tips.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+
+  // ===== EXPLORER SETTINGS =====
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "breadcrumbs.enabled": false,
+
+  // ===== GIT SETTINGS =====
   "git.decorations.enabled": false,
-  "git.openRepositoryInParentFolders": "always",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
 
-  // SCM
-  "scm.diffDecorations": "none",
+  // ===== WINDOW SETTINGS =====
+  "window.titleBarStyle": "native",
+  "window.commandCenter": false,
 
-  // Terminal
+  // ===== TERMINAL SETTINGS =====
+  "terminal.integrated.env.osx": {},
   "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1.2,
@@ -81,57 +87,45 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.tabs.enabled": false,
 
-  // Workbench
-  "workbench.colorTheme": "React Theme",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.activityBar.location": "top",
-  "workbench.layoutControl.enabled": false,
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
+  // ===== EXTENSIONS SETTINGS =====
+  "extensions.ignoreRecommendations": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
 
-  // Window
-  "window.titleBarStyle": "custom",
-  "apc.font.family": "Operator Mono Lig",
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset"
+  // ===== CUSTOM UI SETTINGS =====
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": -999,
+      "y": -999
+    }
   },
-  "apc.stylesheet": {
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 25vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 0 0 4px !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
     ".title-actions": "display: none !important",
-    ".monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions": "display: none !important",
-    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "border: none !important; background: none !important",
-    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-icon": "display: none !important",
-    ".monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-label": "text-transform: uppercase !important",
-    ".custom-sidebar-titlebar .auxiliarybar .composite.title, .custom-sidebar-titlebar .sidebar .composite.title": "display: none !important",
-    ".monaco-list>.monaco-scrollable-element": "padding: 6px 3px",
-    ".quick-input-list.row div": "display: flex !important; align-items: center !important",
-    ".actions-container .menu-entry": "display: none !important"
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px"
   },
+  "custom-ui-style.font.sansSerif": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace"
 
-  "apc.menubar.compact": false,
-  "apc.activityBar": {
-    "size": 30,
-    "itemSize": 30,
-    "itemMargin": 1
-  },
-  "apc.header": {
-    "header": 30
-  },
-  "apc.sidebar.titlebar": {
-    "height": 30,
-    "fontSize": 12
-  },
-  "apc.statusBar": {
-    // "position": "editor-bottom",
-    "height": 30,
-    "fontSize": 12
-  },
-  "apc.listRow": {
-    "lists": ["explorer-folders-view", "quick-input-list", "results"],
-    "height": 24,
-    "fontSize": 14
-  },
-
-  // Material
-  "material-icon-theme.hidesExplorerArrows": true
+  // ===== COMMENTED SETTINGS =====
+  // "editor.lineNumbers:": "relative",
+  // "scm.diffDecorations": "none",
+  // ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
 }
