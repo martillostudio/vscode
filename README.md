@@ -34,4 +34,4 @@
 - **laravel.vscode-laravel** `1.2.1` - Laravel framework tools
 
 
-<img width="1624" height="1056" alt="Captura de pantalla 2025-11-03 a las 12 08 43" src="https://github.com/user-attachments/assets/19ef7197-b57f-4370-82c0-a168f4a1c4cd" />
+<img width="1624" height="1056" alt="Captura de pantalla 2025-11-03 a las 15 11 04" src="https://github.com/user-attachments/assets/a0e35313-7b9e-4e17-9a86-95f966e91992" />
