@@ -25,10 +25,6 @@
     "editorOverviewRuler.errorForeground": "#0000",
     "editorOverviewRuler.infoForeground": "#0000",
     "editorOverviewRuler.border": "#0000",
-    "[Aura Dracula Spirit (Soft)]": {
-      "editorSuggestWidget.selectedBackground": "#3A334B",
-      "sideBar.background": "#191521"
-    }
   },
 
   // === WINDOW ===
@@ -57,14 +53,14 @@
     ]
   },
   "editor.stickyScroll.enabled": false,
-  "editor.colorDecorators": false,
-  "editor.codeLens": false,
+  // "editor.colorDecorators": false,
+  // "editor.codeLens": false,
   "editor.links": false,
   "editor.matchBrackets": "never",
   "editor.parameterHints.enabled": false,
   "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": false,
-  "editor.lineNumbers": "relative",
+  // "editor.hover.enabled": false,
+  // "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.showFoldingControls": "never",
@@ -72,7 +68,7 @@
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
   "editor.occurrencesHighlight": "off",
-  "editor.selectionHighlight": false,
+  // "editor.selectionHighlight": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
@@ -81,7 +77,7 @@
     "other": "off"
   },
   "editor.suggestOnTriggerCharacters": false,
-  "editor.tabCompletion": "on",
+  // "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
 
   // === EXPLORER ===
@@ -99,7 +95,7 @@
   "breadcrumbs.enabled": false,
 
   // === GIT/SCM ===
-  "git.decorations.enabled": false,
+  // "git.decorations.enabled": false,
   "scm.diffDecorations": "none",
 
   // === EXTENSIONS ===
@@ -131,11 +127,11 @@
     ".monaco-list-row.focused": "outline: none !important",
     ".monaco-editor .scroll-decoration": "display: none",
     ".title-actions": "display: none !important",
-    // ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".title .monaco-icon-label.file-icon": "margin: 0 20px",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #65c5db 0%, #5fb3d4 50%, #4d9de0 100%)",
   },
   "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
 
