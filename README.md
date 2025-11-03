@@ -13,5 +13,5 @@ Custom Visual Studio Code settings.json and extensions
 📁 Archivos: SVG, DotEnv
 📝 CMS: Sanity
 
-  
-![Captura de pantalla 2024-01-10 a las 13 03 04](https://github.com/martillostudio/vscode/assets/90794863/dc9dc0aa-06d5-4fd0-9275-394a8307d33e)
+
+<img width="1624" height="1056" alt="Captura de pantalla 2025-11-03 a las 11 19 55" src="https://github.com/user-attachments/assets/06c1d90a-8f7e-4a3f-9410-f6fff5bb9769" />
