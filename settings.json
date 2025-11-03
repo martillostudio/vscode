@@ -1,14 +1,16 @@
 {
   // === WORKBENCH ===
   "workbench.colorTheme": "Gatito Theme",
-  "workbench.editor.showTabs": "multiple",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.tree.enableStickyScroll": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 8,
-  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.colorCustomizations": {
     "editorCursor.background": "#000000",
     "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
@@ -31,15 +33,20 @@
   "window.titleBarStyle": "native",
 
   // === EDITOR ===
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
-  "editor.cursorSmoothCaretAnimation": "on",
   "editor.fontFamily": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.6,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -50,35 +57,28 @@
       }
     ]
   },
-  "editor.stickyScroll.enabled": false,
-  // "editor.colorDecorators": false,
-  // "editor.codeLens": false,
   "editor.links": false,
   "editor.matchBrackets": "never",
   "editor.parameterHints.enabled": false,
   "editor.lightbulb.enabled": "off",
-  // "editor.hover.enabled": false,
-  // "editor.lineNumbers": "relative",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
   "editor.showFoldingControls": "never",
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
   "editor.occurrencesHighlight": "off",
-  // "editor.selectionHighlight": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.quickSuggestions": {
-    "other": "off"
-  },
-  "editor.suggestOnTriggerCharacters": false,
-  // "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // === TERMINAL ===
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.tabs.enabled": false,
 
   // === EXPLORER ===
   "explorer.compactFolders": false,
@@ -95,12 +95,19 @@
   "breadcrumbs.enabled": false,
 
   // === GIT/SCM ===
-  // "git.decorations.enabled": false,
+  "git.confirmSync": false,
   "scm.diffDecorations": "none",
 
   // === EXTENSIONS ===
   "extensions.ignoreRecommendations": true,
   "update.mode": "none",
+
+  // === CHAT ===
+  "chat.commandCenter.enabled": false,
+
+  // === PLUGINS ===
+  "emmet.triggerExpansionOnTab": true,
+  "console-ninja.featureSet": "Community",
 
   // === THEMES & STYLING ===
   "material-icon-theme.hidesExplorerArrows": true,
@@ -126,7 +133,6 @@
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
     ".monaco-list-row.focused": "outline: none !important",
     ".monaco-editor .scroll-decoration": "display: none",
-    ".title-actions": "display: none !important",
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
@@ -138,13 +144,5 @@
     ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-icon": "display: none !important",
     ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "background: transparent !important; border: none !important"
   },
-  "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
-
-  // === PLUGINS ===
-  "emmet.triggerExpansionOnTab": true,
-  "console-ninja.featureSet": "Community",
-  "workbench.navigationControl.enabled": false,
-  "chat.commandCenter.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "git.confirmSync": false
+  "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace"
 }
