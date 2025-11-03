@@ -2,7 +2,6 @@
   // === WORKBENCH ===
   "workbench.colorTheme": "Gatito Theme",
   "workbench.editor.showTabs": "multiple",
-  "workbench.statusBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -29,7 +28,6 @@
 
   // === WINDOW ===
   "window.zoomLevel": 0,
-  "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
 
   // === EDITOR ===
@@ -41,7 +39,7 @@
   "editor.fontFamily": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 2,
+  "editor.lineHeight": 1.6,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -111,6 +109,7 @@
       "y": -999
     }
   },
+  "custom-ui-style.webview.enable": true,
   "custom-ui-style.stylesheet": {
     ".notification-toast": "box-shadow: none !important",
     ".quick-input-widget.show-file-icons": "box-shadow: none !important",
@@ -121,7 +120,7 @@
     ".quick-input-titlebar": "background: #100B15 !important",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
     ".monaco-scrollable-element > .shadow.top": "display: none",
-    ".sidebar .title-label": "padding: 0 0 0 4px !important",
+    // ".sidebar .title-label": "display: none !important;",
     ".sidebar": "border: none !important",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
     ".monaco-list-row.focused": "outline: none !important",
@@ -132,10 +131,19 @@
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".title .monaco-icon-label.file-icon": "margin: 0 20px",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #65c5db 0%, #5fb3d4 50%, #4d9de0 100%)",
+    // ".monaco-workbench .part.sidebar>.title": "height: 0 !important; display: none !important",
+    ".monaco-workbench .part>.content": "font-size: 12px !important;",
+    ".monaco-workbench .part>.title>.title-label": "padding-left: 4px;",
+    ".monaco-workbench .part.sidebar>.title>.title-label h2": "color: rgb(212, 212, 212) !important;",
+    ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-icon": "display: none !important",
+    ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "background: transparent !important; border: none !important",
   },
   "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
 
   // === PLUGINS ===
   "emmet.triggerExpansionOnTab": true,
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "workbench.navigationControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false
 }
