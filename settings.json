@@ -1,13 +1,53 @@
 {
-  // ===== EDITOR SETTINGS =====
-  "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+  // === WORKBENCH ===
+  "workbench.colorTheme": "Gatito Theme",
+  "workbench.editor.showTabs": "multiple",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 8,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#000000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#191521"
+    }
+  },
+
+  // === WINDOW ===
+  "window.zoomLevel": 0,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+
+  // === EDITOR ===
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.6,
-  "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "editor.tockenColorCustomizations": {
-    "textMatRules:": [
+  "editor.lineHeight": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
       {
         "scope": "comment",
         "settings": {
@@ -16,84 +56,58 @@
       }
     ]
   },
-  "editor.lightbulb.enabled": "off",
-  "editor.hover.enabled": true,
-  "editor.links": false,
   "editor.stickyScroll.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.codeLens": false,
+  "editor.links": false,
+  "editor.matchBrackets": "never",
+  "editor.parameterHints.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.showFoldingControls": "never",
   "editor.guides.indentation": false,
   "editor.renderWhitespace": "none",
   "editor.renderLineHighlight": "none",
-  "editor.showFoldingControls": "never",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.tabSize": 2,
-  "editor.lineNumbers": "on",
-  "editor.detectIndentation": false,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.matchBrackets": "always",
-  "editor.glyphMargin": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
 
-  // ===== FILES SETTINGS =====
+  // === EXPLORER ===
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": true,
+  "explorer.decorations.badges": false,
+
+  // === FILES ===
   "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
   "files.autoSave": "afterDelay",
 
-  // ===== WORKBENCH SETTINGS =====
-  "workbench.colorTheme": "Gatito Theme",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.statusBar.visible": false,
-  "workbench.tips.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.tree.enableStickyScroll": true,
-  "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 8,
-  "workbench.layoutControl.enabled": false,
-  "workbench.editorAssociations": {
-    "*.svg": "default"
-  },
-
-  // ===== EXPLORER SETTINGS =====
-  "explorer.compactFolders": false,
-  "explorer.decorations.badges": false,
+  // === BREADCRUMBS ===
   "breadcrumbs.enabled": false,
 
-  // ===== GIT SETTINGS =====
+  // === GIT/SCM ===
   "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
 
-  // ===== WINDOW SETTINGS =====
-  "window.titleBarStyle": "native",
-  "window.commandCenter": false,
-
-  // ===== TERMINAL SETTINGS =====
-  "terminal.integrated.env.osx": {},
-  "terminal.integrated.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.letterSpacing": 0.5,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 1,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.tabs.enabled": false,
-
-  // ===== EXTENSIONS SETTINGS =====
+  // === EXTENSIONS ===
   "extensions.ignoreRecommendations": true,
-  "material-icon-theme.hidesExplorerArrows": true,
-  "indenticator.width": 0.1,
-  "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+  "update.mode": "none",
 
-  // ===== CUSTOM UI SETTINGS =====
+  // === THEMES & STYLING ===
+  "material-icon-theme.hidesExplorerArrows": true,
   "custom-ui-style.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -117,15 +131,15 @@
     ".monaco-list-row.focused": "outline: none !important",
     ".monaco-editor .scroll-decoration": "display: none",
     ".title-actions": "display: none !important",
-    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    // ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
-    ".title .monaco-icon-label.file-icon": "margin: 0 60px"
+    ".title .monaco-icon-label.file-icon": "margin: 0 20px",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
   },
-  "custom-ui-style.font.sansSerif": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace"
+  "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
 
-  // ===== COMMENTED SETTINGS =====
-  // "editor.lineNumbers:": "relative",
-  // "scm.diffDecorations": "none",
-  // ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+  // === PLUGINS ===
+  "emmet.triggerExpansionOnTab": true,
+  "console-ninja.featureSet": "Community"
 }
