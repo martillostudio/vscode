@@ -54,10 +54,8 @@
 
 - **DotEnv** (`mikestead.dotenv@1.0.1`)
 
-<img width="1624" height="1056" alt="Captura de pantalla 2025-11-03 a las 12 08 43" src="https://github.com/user-attachments/assets/19ef7197-b57f-4370-82c0-a168f4a1c4cd" />
-
-
 ## 📝 CMS y Contenido
 
 - **Sanity** (`sanity-io.vscode-sanity@0.2.1`)
 
+<img width="1624" height="1056" alt="Captura de pantalla 2025-11-03 a las 12 08 43" src="https://github.com/user-attachments/assets/19ef7197-b57f-4370-82c0-a168f4a1c4cd" />
