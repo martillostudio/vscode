@@ -23,7 +23,7 @@
     "editorOverviewRuler.addedForeground": "#0000",
     "editorOverviewRuler.errorForeground": "#0000",
     "editorOverviewRuler.infoForeground": "#0000",
-    "editorOverviewRuler.border": "#0000",
+    "editorOverviewRuler.border": "#0000"
   },
 
   // === WINDOW ===
@@ -77,6 +77,8 @@
   "editor.suggestOnTriggerCharacters": false,
   // "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // === EXPLORER ===
   "explorer.compactFolders": false,
@@ -105,8 +107,8 @@
   "custom-ui-style.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
-      "x": -999,
-      "y": -999
+      "x": 16,
+      "y": 10
     }
   },
   "custom-ui-style.webview.enable": true,
@@ -120,7 +122,6 @@
     ".quick-input-titlebar": "background: #100B15 !important",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
     ".monaco-scrollable-element > .shadow.top": "display: none",
-    // ".sidebar .title-label": "display: none !important;",
     ".sidebar": "border: none !important",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
     ".monaco-list-row.focused": "outline: none !important",
@@ -131,12 +132,11 @@
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".title .monaco-icon-label.file-icon": "margin: 0 20px",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #65c5db 0%, #5fb3d4 50%, #4d9de0 100%)",
-    // ".monaco-workbench .part.sidebar>.title": "height: 0 !important; display: none !important",
     ".monaco-workbench .part>.content": "font-size: 12px !important;",
     ".monaco-workbench .part>.title>.title-label": "padding-left: 4px;",
     ".monaco-workbench .part.sidebar>.title>.title-label h2": "color: rgb(212, 212, 212) !important;",
     ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center .action-item.command-center-quick-pick .search-icon": "display: none !important",
-    ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "background: transparent !important; border: none !important",
+    ".monaco-workbench .part.titlebar.inactive>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center": "background: transparent !important; border: none !important"
   },
   "custom-ui-style.font.sansSerif": "Operator Mono Lig, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
 
@@ -145,5 +145,6 @@
   "console-ninja.featureSet": "Community",
   "workbench.navigationControl.enabled": false,
   "chat.commandCenter.enabled": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "git.confirmSync": false
 }
